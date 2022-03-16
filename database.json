@@ -1,0 +1,352 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Adam",
+      "email": "donaghyam@gmail.com",
+      "zoneId": 7
+    },
+    {
+      "name": "Ron Swanson",
+      "email": "banana@gmail.com",
+      "zoneId": 3,
+      "id": 2
+    }
+  ],
+  "gardens": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "vegetable"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "type": "vegetable"
+    }
+  ],
+  "gardenPlants": [
+    {
+      "id": 1,
+      "plantId": 1,
+      "gardenId": 1
+    },
+    {
+      "id": 2,
+      "plantId": 2,
+      "gardenId": 1
+    },
+    {
+      "id": 3,
+      "plantId": 3,
+      "gardenId": 2
+    },
+    {
+      "plantId": 7,
+      "gardenId": 2,
+      "id": 4
+    },
+    {
+      "plantId": 4,
+      "gardenId": 2,
+      "id": 5
+    },
+    {
+      "plantId": 1,
+      "gardenId": 2,
+      "id": 6
+    },
+    {
+      "plantId": 3,
+      "gardenId": 1,
+      "id": 7
+    },
+    {
+      "name": "Asparagus",
+      "plantId": 7,
+      "gardenId": 1,
+      "id": 8
+    },
+    {
+      "name": "Cantaloupe",
+      "plantId": 6,
+      "gardenId": 1,
+      "id": 9
+    },
+    {
+      "name": "Asparagus",
+      "plantId": 7,
+      "gardenId": 1,
+      "id": 10
+    }
+  ],
+  "zones": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    }
+  ],
+  "plants": [
+    {
+      "id": 1,
+      "name": "Strawberry",
+      "type": "fruit",
+      "zoneId": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sowingSeason": "spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "soil surface (from seed)",
+      "sun": "6-10 hrs.",
+      "watering": "daily",
+      "soilPH": "5.5-7.0"
+    },
+    {
+      "id": 2,
+      "name": "Blackberry",
+      "type": "fruit",
+      "zoneId": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "sowingSeason": "spring",
+      "startIndoors": true,
+      "plantingDepth": "1.0-1.5 in.",
+      "sun": "6+ hrs.",
+      "watering": "1 in./week",
+      "soilPH": "6.0-7.0"
+    },
+    {
+      "id": 3,
+      "name": "Blueberry",
+      "type": "fruit",
+      "zoneId": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sowingSeason": "spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "9-10 in. (from crown)",
+      "sun": "6+ hrs.",
+      "watering": "1-2 in./week",
+      "soilPH": "4.0-4.8"
+    },
+    {
+      "id": 4,
+      "name": "Raspberry",
+      "type": "fruit",
+      "zoneId": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sowingSeason": "spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "1-2 in. (from crown)",
+      "sun": "6-8 hrs.",
+      "watering": "1 in./week",
+      "soilPH": "5.5-6.5"
+    },
+    {
+      "id": 5,
+      "name": "Watermelon",
+      "type": "fruit",
+      "zoneId": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sowingSeason": "spring - before last frost",
+      "startIndoors": true,
+      "plantingDepth": "0.5-1 in.",
+      "sun": "6+ hrs.",
+      "watering": "1-2 in./week",
+      "soilPH": "6.0-7.0"
+    },
+    {
+      "id": 6,
+      "name": "Cantaloupe",
+      "type": "fruit",
+      "zoneId": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sowingSeason": "early spring",
+      "startIndoors": true,
+      "plantingDepth": "0.5 in. (from seed)",
+      "sun": "6-10 hrs.",
+      "watering": "1 in./week",
+      "soilPH": "6.0-7.0"
+    },
+    {
+      "id": 7,
+      "name": "Asparagus",
+      "type": "vegetable",
+      "zoneId": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sowingSeason": "spring - before last frost",
+      "startIndoors": true,
+      "plantingDepth": "0.25 in. (from seed), 8 in. (from seedling)",
+      "sun": "6-10 hrs.",
+      "watering": "1 in./week",
+      "soilPH": "6.0-7.0"
+    }
+  ],
+  "plantZones": [
+    {
+      "id": 1,
+      "plantId": 1,
+      "zoneId": 2
+    },
+    {
+      "id": 2,
+      "plantId": 1,
+      "zoneId": 3
+    },
+    {
+      "id": 3,
+      "plantId": 1,
+      "zoneId": 4
+    },
+    {
+      "id": 4,
+      "plantId": 1,
+      "zoneId": 5
+    },
+    {
+      "id": 5,
+      "plantId": 1,
+      "zoneId": 6
+    },
+    {
+      "id": 6,
+      "plantId": 1,
+      "zoneId": 7
+    },
+    {
+      "id": 7,
+      "plantId": 1,
+      "zoneId": 8
+    },
+    {
+      "id": 8,
+      "plantId": 1,
+      "zoneId": 9
+    },
+    {
+      "id": 9,
+      "plantId": 1,
+      "zoneId": 10
+    },
+    {
+      "id": 10,
+      "plantId": 2,
+      "zoneId": 3
+    },
+    {
+      "id": 11,
+      "plantId": 2,
+      "zoneId": 4
+    },
+    {
+      "id": 12,
+      "plantId": 2,
+      "zoneId": 5
+    },
+    {
+      "id": 13,
+      "plantId": 2,
+      "zoneId": 6
+    },
+    {
+      "id": 14,
+      "plantId": 2,
+      "zoneId": 7
+    },
+    {
+      "id": 15,
+      "plantId": 2,
+      "zoneId": 8
+    },
+    {
+      "id": 16,
+      "plantId": 2,
+      "zoneId": 9
+    }
+  ]
+}
