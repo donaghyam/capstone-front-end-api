@@ -11,6 +11,18 @@
       "email": "banana@gmail.com",
       "zoneId": 3,
       "id": 2
+    },
+    {
+      "name": "Ron Burgundy",
+      "email": "ron@burgundy.com",
+      "zoneId": 9,
+      "id": 3
+    },
+    {
+      "name": "Joe",
+      "email": "Joe@joe.com",
+      "zoneId": 5,
+      "id": 4
     }
   ],
   "gardens": [
@@ -23,28 +35,30 @@
       "id": 2,
       "userId": 2,
       "type": "vegetable"
+    },
+    {
+      "userId": 3,
+      "type": "",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "type": "",
+      "id": 4
     }
   ],
   "gardenPlants": [
     {
-      "id": 1,
-      "plantId": 1,
-      "gardenId": 1
-    },
-    {
-      "id": 2,
+      "name": "Blackberry",
       "plantId": 2,
-      "gardenId": 1
+      "gardenId": 1,
+      "datePlanted": "2022-03-23",
+      "id": 2
     },
     {
       "id": 3,
       "plantId": 3,
       "gardenId": 2
-    },
-    {
-      "plantId": 7,
-      "gardenId": 2,
-      "id": 4
     },
     {
       "plantId": 4,
@@ -57,56 +71,108 @@
       "id": 6
     },
     {
+      "name": "Blueberry",
       "plantId": 3,
       "gardenId": 1,
+      "datePlanted": "2022-03-16",
       "id": 7
     },
     {
-      "name": "Asparagus",
-      "plantId": 7,
-      "gardenId": 1,
-      "id": 8
-    },
-    {
-      "name": "Cantaloupe",
-      "plantId": 6,
-      "gardenId": 1,
+      "name": "Strawberry",
+      "plantId": 1,
+      "gardenId": 4,
       "id": 9
     },
     {
+      "name": "Blackberry",
+      "plantId": 2,
+      "gardenId": 4,
+      "id": 10
+    },
+    {
+      "name": "Blueberry",
+      "plantId": 3,
+      "gardenId": 4,
+      "id": 11
+    },
+    {
       "name": "Asparagus",
       "plantId": 7,
+      "gardenId": 4,
+      "id": 12
+    },
+    {
+      "name": "Basil",
+      "plantId": 9,
+      "gardenId": 4,
+      "id": 13
+    },
+    {
+      "name": "Arugula",
+      "plantId": 8,
+      "gardenId": 4,
+      "id": 14
+    },
+    {
+      "name": "Basil",
+      "plantId": 9,
       "gardenId": 1,
-      "id": 10
+      "datePlanted": "2022-03-01",
+      "id": 15
+    },
+    {
+      "name": "Arugula",
+      "plantId": 8,
+      "gardenId": 1,
+      "datePlanted": 1647993600000,
+      "id": 16
     }
   ],
   "zones": [
     {
-      "id": 1
+      "id": 1,
+      "lastFrostDate": "May 22-June 4",
+      "firstFrostDate": "August 25-31"
     },
     {
-      "id": 2
+      "id": 2,
+      "lastFrostDate": "May 15-22",
+      "firstFrostDate": "September 1-8"
     },
     {
-      "id": 3
+      "id": 3,
+      "lastFrostDate": "May 1-16",
+      "firstFrostDate": "September 8-15"
     },
     {
-      "id": 4
+      "id": 4,
+      "lastFrostDate": "April 24-May 12",
+      "firstFrostDate": "September 21-October 21"
     },
     {
-      "id": 5
+      "id": 5,
+      "lastFrostDate": "April 7-30",
+      "firstFrostDate": "October 31-November 15"
     },
     {
-      "id": 6
+      "id": 6,
+      "lastFrostDate": "April 1-21",
+      "firstFrostDate": "October 17-31"
     },
     {
-      "id": 7
+      "id": 7,
+      "lastFrostDate": "March 22-April 3",
+      "firstFrostDate": "October 29-November 15"
     },
     {
-      "id": 8
+      "id": 8,
+      "lastFrostDate": "March 13-28",
+      "firstFrostDate": "November 7-28"
     },
     {
-      "id": 9
+      "id": 9,
+      "lastFrostDate": "February 6-28",
+      "firstFrostDate": "November 25-December 13"
     },
     {
       "id": 10
@@ -125,18 +191,7 @@
     {
       "id": 1,
       "name": "Strawberry",
-      "type": "fruit",
-      "zoneId": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
+      "type": "Fruit",
       "sowingSeason": "spring - after last frost",
       "startIndoors": false,
       "plantingDepth": "soil surface (from seed)",
@@ -147,55 +202,31 @@
     {
       "id": 2,
       "name": "Blackberry",
-      "type": "fruit",
-      "zoneId": [
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
+      "type": "Fruit",
       "sowingSeason": "spring",
       "startIndoors": true,
       "plantingDepth": "1.0-1.5 in.",
       "sun": "6+ hrs.",
       "watering": "1 in./week",
-      "soilPH": "6.0-7.0"
+      "soilPH": "6.0-7.0",
+      "daysToHarvest": 45
     },
     {
       "id": 3,
       "name": "Blueberry",
-      "type": "fruit",
-      "zoneId": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
+      "type": "Fruit",
       "sowingSeason": "spring - after last frost",
       "startIndoors": false,
       "plantingDepth": "9-10 in. (from crown)",
       "sun": "6+ hrs.",
       "watering": "1-2 in./week",
-      "soilPH": "4.0-4.8"
+      "soilPH": "4.0-4.8",
+      "daysToHarvest": 52
     },
     {
       "id": 4,
       "name": "Raspberry",
-      "type": "fruit",
-      "zoneId": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
+      "type": "Fruit",
       "sowingSeason": "spring - after last frost",
       "startIndoors": false,
       "plantingDepth": "1-2 in. (from crown)",
@@ -206,18 +237,7 @@
     {
       "id": 5,
       "name": "Watermelon",
-      "type": "fruit",
-      "zoneId": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
+      "type": "Fruit",
       "sowingSeason": "spring - before last frost",
       "startIndoors": true,
       "plantingDepth": "0.5-1 in.",
@@ -228,17 +248,7 @@
     {
       "id": 6,
       "name": "Cantaloupe",
-      "type": "fruit",
-      "zoneId": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11
-      ],
+      "type": "Fruit",
       "sowingSeason": "early spring",
       "startIndoors": true,
       "plantingDepth": "0.5 in. (from seed)",
@@ -249,22 +259,35 @@
     {
       "id": 7,
       "name": "Asparagus",
-      "type": "vegetable",
-      "zoneId": [
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ],
+      "type": "Vegetable",
       "sowingSeason": "spring - before last frost",
       "startIndoors": true,
       "plantingDepth": "0.25 in. (from seed), 8 in. (from seedling)",
       "sun": "6-10 hrs.",
       "watering": "1 in./week",
       "soilPH": "6.0-7.0"
+    },
+    {
+      "name": "Arugula",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "6.0-6.5",
+      "id": 8
+    },
+    {
+      "name": "Basil",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "6.5-7.0",
+      "id": 9
     }
   ],
   "plantZones": [
@@ -316,37 +339,292 @@
     {
       "id": 10,
       "plantId": 2,
-      "zoneId": 3
+      "zoneId": 5
     },
     {
       "id": 11,
       "plantId": 2,
-      "zoneId": 4
+      "zoneId": 6
     },
     {
       "id": 12,
       "plantId": 2,
-      "zoneId": 5
+      "zoneId": 7
     },
     {
       "id": 13,
       "plantId": 2,
-      "zoneId": 6
+      "zoneId": 8
     },
     {
       "id": 14,
       "plantId": 2,
-      "zoneId": 7
+      "zoneId": 9
     },
     {
       "id": 15,
       "plantId": 2,
-      "zoneId": 8
+      "zoneId": 10
     },
     {
       "id": 16,
-      "plantId": 2,
+      "plantId": 3,
+      "zoneId": 3
+    },
+    {
+      "id": 17,
+      "plantId": 3,
+      "zoneId": 4
+    },
+    {
+      "id": 18,
+      "plantId": 3,
+      "zoneId": 5
+    },
+    {
+      "id": 19,
+      "plantId": 3,
+      "zoneId": 6
+    },
+    {
+      "id": 20,
+      "plantId": 3,
+      "zoneId": 7
+    },
+    {
+      "id": 21,
+      "plantId": 3,
+      "zoneId": 8
+    },
+    {
+      "id": 22,
+      "plantId": 3,
       "zoneId": 9
+    },
+    {
+      "id": 23,
+      "plantId": 4,
+      "zoneId": 3
+    },
+    {
+      "id": 24,
+      "plantId": 4,
+      "zoneId": 4
+    },
+    {
+      "id": 25,
+      "plantId": 4,
+      "zoneId": 5
+    },
+    {
+      "id": 26,
+      "plantId": 4,
+      "zoneId": 6
+    },
+    {
+      "id": 27,
+      "plantId": 4,
+      "zoneId": 7
+    },
+    {
+      "id": 28,
+      "plantId": 4,
+      "zoneId": 8
+    },
+    {
+      "id": 29,
+      "plantId": 4,
+      "zoneId": 9
+    },
+    {
+      "id": 30,
+      "plantId": 5,
+      "zoneId": 3
+    },
+    {
+      "id": 31,
+      "plantId": 5,
+      "zoneId": 4
+    },
+    {
+      "id": 32,
+      "plantId": 5,
+      "zoneId": 5
+    },
+    {
+      "id": 33,
+      "plantId": 5,
+      "zoneId": 6
+    },
+    {
+      "id": 34,
+      "plantId": 5,
+      "zoneId": 7
+    },
+    {
+      "id": 35,
+      "plantId": 5,
+      "zoneId": 8
+    },
+    {
+      "id": 36,
+      "plantId": 5,
+      "zoneId": 9
+    },
+    {
+      "id": 37,
+      "plantId": 5,
+      "zoneId": 10
+    },
+    {
+      "id": 38,
+      "plantId": 5,
+      "zoneId": 11
+    },
+    {
+      "id": 38,
+      "plantId": 6,
+      "zoneId": 4
+    },
+    {
+      "id": 39,
+      "plantId": 6,
+      "zoneId": 5
+    },
+    {
+      "id": 40,
+      "plantId": 6,
+      "zoneId": 6
+    },
+    {
+      "id": 41,
+      "plantId": 6,
+      "zoneId": 7
+    },
+    {
+      "id": 42,
+      "plantId": 6,
+      "zoneId": 8
+    },
+    {
+      "id": 43,
+      "plantId": 6,
+      "zoneId": 9
+    },
+    {
+      "id": 44,
+      "plantId": 6,
+      "zoneId": 10
+    },
+    {
+      "id": 45,
+      "plantId": 6,
+      "zoneId": 11
+    },
+    {
+      "id": 46,
+      "plantId": 7,
+      "zoneId": 3
+    },
+    {
+      "id": 47,
+      "plantId": 7,
+      "zoneId": 4
+    },
+    {
+      "id": 48,
+      "plantId": 7,
+      "zoneId": 5
+    },
+    {
+      "id": 49,
+      "plantId": 7,
+      "zoneId": 6
+    },
+    {
+      "id": 50,
+      "plantId": 7,
+      "zoneId": 7
+    },
+    {
+      "id": 51,
+      "plantId": 7,
+      "zoneId": 8
+    },
+    {
+      "plantId": 8,
+      "zoneId": 5,
+      "id": 52
+    },
+    {
+      "plantId": 8,
+      "zoneId": 9,
+      "id": 53
+    },
+    {
+      "plantId": 8,
+      "zoneId": 6,
+      "id": 54
+    },
+    {
+      "plantId": 8,
+      "zoneId": 3,
+      "id": 55
+    },
+    {
+      "plantId": 8,
+      "zoneId": 4,
+      "id": 56
+    },
+    {
+      "plantId": 8,
+      "zoneId": 7,
+      "id": 57
+    },
+    {
+      "plantId": 8,
+      "zoneId": 10,
+      "id": 58
+    },
+    {
+      "plantId": 8,
+      "zoneId": 11,
+      "id": 59
+    },
+    {
+      "plantId": 8,
+      "zoneId": 8,
+      "id": 60
+    },
+    {
+      "plantId": 9,
+      "zoneId": 5,
+      "id": 61
+    },
+    {
+      "plantId": 9,
+      "zoneId": 9,
+      "id": 62
+    },
+    {
+      "plantId": 9,
+      "zoneId": 6,
+      "id": 63
+    },
+    {
+      "plantId": 9,
+      "zoneId": 7,
+      "id": 64
+    },
+    {
+      "plantId": 9,
+      "zoneId": 8,
+      "id": 65
+    },
+    {
+      "plantId": 9,
+      "zoneId": 10,
+      "id": 66
     }
   ]
 }
