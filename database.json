@@ -23,38 +23,37 @@
       "email": "Joe@joe.com",
       "zoneId": 5,
       "id": 4
+    },
+    {
+      "name": "Tom",
+      "email": "tom@tom.com",
+      "zoneId": 5,
+      "id": 5
     }
   ],
   "gardens": [
     {
       "id": 1,
-      "userId": 1,
-      "type": "vegetable"
+      "userId": 1
     },
     {
       "id": 2,
-      "userId": 2,
-      "type": "vegetable"
+      "userId": 2
     },
     {
       "userId": 3,
-      "type": "",
       "id": 3
     },
     {
       "userId": 4,
-      "type": "",
       "id": 4
+    },
+    {
+      "userId": 5,
+      "id": 5
     }
   ],
   "gardenPlants": [
-    {
-      "name": "Blackberry",
-      "plantId": 2,
-      "gardenId": 1,
-      "datePlanted": "2022-03-23",
-      "id": 2
-    },
     {
       "id": 3,
       "plantId": 3,
@@ -126,6 +125,55 @@
       "gardenId": 1,
       "datePlanted": 1647993600000,
       "id": 16
+    },
+    {
+      "name": "Strawberry",
+      "plantId": 1,
+      "gardenId": 1,
+      "datePlanted": 1647907200000,
+      "id": 17
+    },
+    {
+      "name": "Raspberry",
+      "plantId": 4,
+      "gardenId": 1,
+      "datePlanted": 1647907200000,
+      "id": 18
+    },
+    {
+      "name": "Watermelon",
+      "plantId": 5,
+      "gardenId": 1,
+      "datePlanted": 1647907200000,
+      "id": 19
+    },
+    {
+      "name": "Cantaloupe",
+      "plantId": 6,
+      "gardenId": 1,
+      "datePlanted": 1646870400000,
+      "id": 20
+    },
+    {
+      "name": "Asparagus",
+      "plantId": 7,
+      "gardenId": 1,
+      "datePlanted": 1647993600000,
+      "id": 21
+    },
+    {
+      "name": "Blackberry",
+      "plantId": 2,
+      "gardenId": 1,
+      "datePlanted": 1647734400000,
+      "id": 22
+    },
+    {
+      "name": "Broccoli",
+      "plantId": 10,
+      "gardenId": 1,
+      "datePlanted": 1647734400000,
+      "id": 23
     }
   ],
   "zones": [
@@ -197,7 +245,9 @@
       "plantingDepth": "soil surface (from seed)",
       "sun": "6-10 hrs.",
       "watering": "daily",
-      "soilPH": "5.5-7.0"
+      "soilPH": "5.5-7.0",
+      "daysToHarvest": 42,
+      "img": "https://momfoodie.com/wp-content/uploads/Growing-strawberries-in-raised-beds.webp"
     },
     {
       "id": 2,
@@ -209,7 +259,8 @@
       "sun": "6+ hrs.",
       "watering": "1 in./week",
       "soilPH": "6.0-7.0",
-      "daysToHarvest": 45
+      "daysToHarvest": 470,
+      "img": "https://h2.commercev3.net/cdn.gurneys.com/images/800/80920A.jpg"
     },
     {
       "id": 3,
@@ -221,7 +272,8 @@
       "sun": "6+ hrs.",
       "watering": "1-2 in./week",
       "soilPH": "4.0-4.8",
-      "daysToHarvest": 52
+      "daysToHarvest": 560,
+      "img": "https://www.thespruce.com/thmb/orbJ4AZEU4oQIMPhSlEgLW3Y8SQ=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/blueberries-vaccinium-spp-3269245-01-42fb9fde200d4c05a2a5d3c6e94a0bf2.jpg"
     },
     {
       "id": 4,
@@ -232,7 +284,9 @@
       "plantingDepth": "1-2 in. (from crown)",
       "sun": "6-8 hrs.",
       "watering": "1 in./week",
-      "soilPH": "5.5-6.5"
+      "soilPH": "5.5-6.5",
+      "daysToHarvest": 480,
+      "img": "https://backyardberryplants.com/wp-content/uploads/2018/12/CarolineRedRaspberry.jpg"
     },
     {
       "id": 5,
@@ -243,7 +297,9 @@
       "plantingDepth": "0.5-1 in.",
       "sun": "6+ hrs.",
       "watering": "1-2 in./week",
-      "soilPH": "6.0-7.0"
+      "soilPH": "6.0-7.0",
+      "daysToHarvest": 90,
+      "img": "https://gardenerspath.com/wp-content/uploads/2020/07/Large-Ripe-Watermelon-Growing-in-the-Garden.jpg.webp"
     },
     {
       "id": 6,
@@ -254,7 +310,9 @@
       "plantingDepth": "0.5 in. (from seed)",
       "sun": "6-10 hrs.",
       "watering": "1 in./week",
-      "soilPH": "6.0-7.0"
+      "soilPH": "6.0-7.0",
+      "daysToHarvest": 80,
+      "img": "https://cdn.harvesttotable.com/htt/2009/03/23181230/Melon-muskmelon-2.jpg"
     },
     {
       "id": 7,
@@ -265,7 +323,9 @@
       "plantingDepth": "0.25 in. (from seed), 8 in. (from seedling)",
       "sun": "6-10 hrs.",
       "watering": "1 in./week",
-      "soilPH": "6.0-7.0"
+      "soilPH": "6.0-7.0",
+      "daysToHarvest": 42,
+      "img": "https://cdn.harvesttotable.com/htt/2009/01/23181546/bigstock-Organic-farming-asparagus-in-b-93753086-1-2048x1366.jpg"
     },
     {
       "name": "Arugula",
@@ -276,7 +336,9 @@
       "sun": "6+ hours",
       "watering": "1.0 in. per week",
       "soilPH": "6.0-6.5",
-      "id": 8
+      "id": 8,
+      "daysToHarvest": 35,
+      "img": "https://www.gardeningknowhow.com/wp-content/uploads/2020/11/arugula-plant-690x518.jpg"
     },
     {
       "name": "Basil",
@@ -287,7 +349,46 @@
       "sun": "6+ hours",
       "watering": "1.0 in. per week",
       "soilPH": "6.5-7.0",
-      "id": 9
+      "id": 9,
+      "daysToHarvest": 28,
+      "img": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_720/MTc0MTg5MTMzNzM0ODgwNzY0/how-to-care-for-sweet-basil-plant.webp"
+    },
+    {
+      "name": "Broccoli",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "0.5-1.0 in. (from seed)",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 70,
+      "img": "https://secure.img1-fg.wfcdn.com/im/82072545/resize-h350%5Ecompr-r85/1099/109980205/Sprouting+Broccoli+Skull.jpg",
+      "id": 10
+    },
+    {
+      "name": "Dill",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": true,
+      "plantingDepth": "0.5-1.0 in. (from seed)",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "5.5-6.0",
+      "daysToHarvest": 90,
+      "img": "https://www.almanac.com/sites/default/files/styles/max_2600x2600/public/image_nodes/dill-planting-growing.jpg?itok=Cm11tbLE",
+      "id": 11
+    },
+    {
+      "name": "Cabbage",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.5-7.0",
+      "id": 12
     }
   ],
   "plantZones": [
@@ -625,6 +726,91 @@
       "plantId": 9,
       "zoneId": 10,
       "id": 66
+    },
+    {
+      "plantId": 10,
+      "zoneId": 3,
+      "id": 67
+    },
+    {
+      "plantId": 10,
+      "zoneId": 4,
+      "id": 68
+    },
+    {
+      "plantId": 10,
+      "zoneId": 10,
+      "id": 69
+    },
+    {
+      "plantId": 10,
+      "zoneId": 6,
+      "id": 70
+    },
+    {
+      "plantId": 10,
+      "zoneId": 7,
+      "id": 71
+    },
+    {
+      "plantId": 10,
+      "zoneId": 5,
+      "id": 72
+    },
+    {
+      "plantId": 10,
+      "zoneId": 8,
+      "id": 73
+    },
+    {
+      "plantId": 10,
+      "zoneId": 9,
+      "id": 74
+    },
+    {
+      "plantId": 12,
+      "zoneId": 1,
+      "id": 75
+    },
+    {
+      "plantId": 12,
+      "zoneId": 3,
+      "id": 76
+    },
+    {
+      "plantId": 12,
+      "zoneId": 4,
+      "id": 77
+    },
+    {
+      "plantId": 12,
+      "zoneId": 5,
+      "id": 78
+    },
+    {
+      "plantId": 12,
+      "zoneId": 2,
+      "id": 79
+    },
+    {
+      "plantId": 12,
+      "zoneId": 6,
+      "id": 80
+    },
+    {
+      "plantId": 12,
+      "zoneId": 8,
+      "id": 81
+    },
+    {
+      "plantId": 12,
+      "zoneId": 9,
+      "id": 82
+    },
+    {
+      "plantId": 12,
+      "zoneId": 7,
+      "id": 83
     }
   ]
 }
