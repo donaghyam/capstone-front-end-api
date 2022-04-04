@@ -74,6 +74,7 @@
       "plantId": 3,
       "gardenId": 1,
       "datePlanted": "2022-03-16",
+      "comment": "Got too much direct sun",
       "id": 7
     },
     {
@@ -145,6 +146,7 @@
       "plantId": 5,
       "gardenId": 1,
       "datePlanted": 1647907200000,
+      "comment": "Picked too early",
       "id": 19
     },
     {
@@ -174,6 +176,50 @@
       "gardenId": 1,
       "datePlanted": 1647734400000,
       "id": 23
+    },
+    {
+      "name": "Blackberry",
+      "plantId": 2,
+      "gardenId": 5,
+      "datePlanted": 1650758400000,
+      "id": 24
+    },
+    {
+      "name": "Broccoli",
+      "plantId": 10,
+      "gardenId": 5,
+      "datePlanted": 1650758400000,
+      "id": 25
+    },
+    {
+      "name": "Lavender",
+      "plantId": 16,
+      "gardenId": 5,
+      "datePlanted": 1648598400000,
+      "id": 26
+    },
+    {
+      "name": "Raspberry",
+      "plantId": 4,
+      "gardenId": 5,
+      "datePlanted": 1648598400000,
+      "id": 27
+    },
+    {
+      "name": "Watermelon",
+      "plantId": 5,
+      "gardenId": 5,
+      "datePlanted": 1648684800000,
+      "comment": "yummy watermelon",
+      "id": 28
+    },
+    {
+      "name": "Dill",
+      "plantId": 14,
+      "gardenId": 5,
+      "datePlanted": 1649462400000,
+      "comment": "good on sandos",
+      "id": 29
     }
   ],
   "zones": [
@@ -388,7 +434,188 @@
       "sun": "6+ hours",
       "watering": "1.5 in. per week",
       "soilPH": "6.5-7.0",
+      "img": "https://www.gardeningknowhow.com/wp-content/uploads/2009/03/cabbage-1024x680.jpg",
       "id": 12
+    },
+    {
+      "name": "Brussels Sprouts",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 85,
+      "img": "https://www.thespruce.com/thmb/nlGhr3XxGxUKjoP8eFIqqEAL5NQ=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/growing-brussels-sprouts-1403442-05-3200e32ca58b4ae7bccc2a2171a47baf.jpg",
+      "id": 13
+    },
+    {
+      "name": "Dill",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "5.5-6.0",
+      "daysToHarvest": 28,
+      "img": "https://morningchores.com/wp-content/uploads/2019/03/dill-8104_1920-1.jpg",
+      "id": 14
+    },
+    {
+      "name": "Dill",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "0.5-1.0 in. (from seed)",
+      "sun": "8+ hours",
+      "watering": "2.0 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 30,
+      "img": "https://morningchores.com/wp-content/uploads/2019/08/Growing-Fenugreek-Plant-Varieties-How-to-Guide-Problems-and-Harvesting-FI.jpg",
+      "id": 15
+    },
+    {
+      "name": "Lavender",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "1.5-2.0 in. (from seed)",
+      "sun": "8+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "7.0-7.5",
+      "daysToHarvest": 126,
+      "img": "https://morningchores.com/wp-content/uploads/2019/01/Lavender-hybrid.jpg",
+      "id": 16
+    },
+    {
+      "name": "Mint",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "1.5-2.0 in. (from seed)",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 90,
+      "img": "https://www.thespruce.com/thmb/wVIDxUD7Znq8x7hUc0VowZihqBE=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/growing-mint-1402628-closeup-d55f829e9b4d487d942a2edec4343eab.jpg",
+      "id": 17
+    },
+    {
+      "name": "Lemon",
+      "type": "Fruit",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "9-10 in. (from crown)",
+      "sun": "8+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "5.5-6.0",
+      "daysToHarvest": 730,
+      "img": "https://www.gardeningknowhow.com/wp-content/uploads/2021/03/lemon-tree-690x518.jpg",
+      "id": 18
+    },
+    {
+      "name": "Oregano",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 45,
+      "img": "https://www.thespruce.com/thmb/unWUcAhpCsCKDe6UvzsvkoMTaUw=/941x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/herb-profile-oregano-1761786-5-5c01c4fc1b4d4d748680c261c760497e.jpg",
+      "id": 19
+    },
+    {
+      "name": "Parsley",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "",
+      "sun": "8+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.0-6.5",
+      "daysToHarvest": 80,
+      "img": "https://morningchores.com/wp-content/uploads/2019/02/curly-parsley-341936_640-1.jpg",
+      "id": 20
+    },
+    {
+      "name": "Rosemary",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "1.5-2.0 in. (from seed)",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 43,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rosemary-7560.jpg/1600px-Rosemary-7560.jpg?20130324015853",
+      "id": 21
+    },
+    {
+      "name": "Saffron",
+      "type": "Herb",
+      "sowingSeason": "Fall",
+      "startIndoors": false,
+      "plantingDepth": "1.5-2.0 in. (from seed)",
+      "sun": "8+ hours",
+      "watering": "",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 56,
+      "img": "https://www.edenbrothers.com/store/media/Bulbs-Flowers/resized/Crocus-Saffron-1_medium.jpg",
+      "id": 22
+    },
+    {
+      "name": "Sage",
+      "type": "Herb",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 75,
+      "img": "https://morningchores.com/wp-content/uploads/2019/05/sage-2.jpg",
+      "id": 23
+    },
+    {
+      "name": "",
+      "type": "",
+      "sowingSeason": "",
+      "startIndoors": false,
+      "plantingDepth": "",
+      "sun": "",
+      "watering": "",
+      "soilPH": "",
+      "id": 24
+    },
+    {
+      "name": "Thyme",
+      "type": "Herb",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "0.5 in. per week",
+      "soilPH": "5.0-5.5",
+      "daysToHarvest": 83,
+      "img": "https://morningchores.com/wp-content/uploads/2019/08/640px-Thymus_%C3%97citriodorus_Lemon_Thyme_%E3%83%AC%E3%83%A2%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A05_026711.jpg",
+      "id": 25
+    },
+    {
+      "name": "Carrots",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.0 in. per week",
+      "soilPH": "6.0-6.5",
+      "daysToHarvest": 75,
+      "img": "https://www.thespruce.com/thmb/pM9mAI95Z3IzKYDxH9MhzHXcB78=/700x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/how-to-grow-carrots-in-the-vegetable-garden-1403472-04-02bdfb51839a4368937530610b51f8c9.jpg",
+      "id": 26
     }
   ],
   "plantZones": [
@@ -811,6 +1038,361 @@
       "plantId": 12,
       "zoneId": 7,
       "id": 83
+    },
+    {
+      "plantId": 13,
+      "zoneId": 2,
+      "id": 84
+    },
+    {
+      "plantId": 13,
+      "zoneId": 4,
+      "id": 85
+    },
+    {
+      "plantId": 13,
+      "zoneId": 2,
+      "id": 86
+    },
+    {
+      "plantId": 13,
+      "zoneId": 2,
+      "id": 87
+    },
+    {
+      "plantId": 13,
+      "zoneId": 3,
+      "id": 88
+    },
+    {
+      "plantId": 13,
+      "zoneId": 6,
+      "id": 89
+    },
+    {
+      "plantId": 13,
+      "zoneId": 5,
+      "id": 90
+    },
+    {
+      "plantId": 13,
+      "zoneId": 7,
+      "id": 91
+    },
+    {
+      "plantId": 13,
+      "zoneId": 8,
+      "id": 92
+    },
+    {
+      "plantId": 13,
+      "zoneId": 9,
+      "id": 93
+    },
+    {
+      "plantId": 13,
+      "zoneId": 10,
+      "id": 94
+    },
+    {
+      "plantId": 14,
+      "zoneId": 3,
+      "id": 95
+    },
+    {
+      "plantId": 14,
+      "zoneId": 5,
+      "id": 96
+    },
+    {
+      "plantId": 14,
+      "zoneId": 4,
+      "id": 97
+    },
+    {
+      "plantId": 14,
+      "zoneId": 6,
+      "id": 98
+    },
+    {
+      "plantId": 14,
+      "zoneId": 7,
+      "id": 99
+    },
+    {
+      "plantId": 15,
+      "zoneId": 10,
+      "id": 100
+    },
+    {
+      "plantId": 15,
+      "zoneId": 11,
+      "id": 101
+    },
+    {
+      "plantId": 15,
+      "zoneId": 12,
+      "id": 102
+    },
+    {
+      "plantId": 16,
+      "zoneId": 6,
+      "id": 103
+    },
+    {
+      "plantId": 16,
+      "zoneId": 5,
+      "id": 104
+    },
+    {
+      "plantId": 16,
+      "zoneId": 7,
+      "id": 105
+    },
+    {
+      "plantId": 16,
+      "zoneId": 8,
+      "id": 106
+    },
+    {
+      "plantId": 17,
+      "zoneId": 3,
+      "id": 107
+    },
+    {
+      "plantId": 17,
+      "zoneId": 4,
+      "id": 108
+    },
+    {
+      "plantId": 17,
+      "zoneId": 5,
+      "id": 109
+    },
+    {
+      "plantId": 18,
+      "zoneId": 5,
+      "id": 110
+    },
+    {
+      "plantId": 18,
+      "zoneId": 5,
+      "id": 111
+    },
+    {
+      "plantId": 18,
+      "zoneId": 9,
+      "id": 112
+    },
+    {
+      "plantId": 18,
+      "zoneId": 10,
+      "id": 113
+    },
+    {
+      "plantId": 18,
+      "zoneId": 11,
+      "id": 114
+    },
+    {
+      "plantId": 19,
+      "zoneId": 6,
+      "id": 115
+    },
+    {
+      "plantId": 19,
+      "zoneId": 6,
+      "id": 116
+    },
+    {
+      "plantId": 19,
+      "zoneId": 8,
+      "id": 117
+    },
+    {
+      "plantId": 19,
+      "zoneId": 9,
+      "id": 118
+    },
+    {
+      "plantId": 19,
+      "zoneId": 6,
+      "id": 119
+    },
+    {
+      "plantId": 19,
+      "zoneId": 7,
+      "id": 120
+    },
+    {
+      "plantId": 19,
+      "zoneId": 5,
+      "id": 121
+    },
+    {
+      "plantId": 20,
+      "zoneId": 9,
+      "id": 122
+    },
+    {
+      "plantId": 20,
+      "zoneId": 3,
+      "id": 123
+    },
+    {
+      "plantId": 20,
+      "zoneId": 4,
+      "id": 124
+    },
+    {
+      "plantId": 20,
+      "zoneId": 5,
+      "id": 125
+    },
+    {
+      "plantId": 20,
+      "zoneId": 7,
+      "id": 126
+    },
+    {
+      "plantId": 20,
+      "zoneId": 6,
+      "id": 127
+    },
+    {
+      "plantId": 20,
+      "zoneId": 8,
+      "id": 128
+    },
+    {
+      "plantId": 21,
+      "zoneId": 6,
+      "id": 129
+    },
+    {
+      "plantId": 21,
+      "zoneId": 7,
+      "id": 130
+    },
+    {
+      "plantId": 21,
+      "zoneId": 8,
+      "id": 131
+    },
+    {
+      "plantId": 21,
+      "zoneId": 9,
+      "id": 132
+    },
+    {
+      "plantId": 22,
+      "zoneId": 6,
+      "id": 133
+    },
+    {
+      "plantId": 22,
+      "zoneId": 7,
+      "id": 134
+    },
+    {
+      "plantId": 22,
+      "zoneId": 8,
+      "id": 135
+    },
+    {
+      "plantId": 23,
+      "zoneId": 5,
+      "id": 136
+    },
+    {
+      "plantId": 23,
+      "zoneId": 5,
+      "id": 137
+    },
+    {
+      "plantId": 23,
+      "zoneId": 5,
+      "id": 138
+    },
+    {
+      "plantId": 23,
+      "zoneId": 6,
+      "id": 139
+    },
+    {
+      "plantId": 23,
+      "zoneId": 8,
+      "id": 140
+    },
+    {
+      "plantId": 23,
+      "zoneId": 7,
+      "id": 141
+    },
+    {
+      "plantId": 23,
+      "zoneId": 9,
+      "id": 142
+    },
+    {
+      "plantId": 25,
+      "zoneId": 6,
+      "id": 143
+    },
+    {
+      "plantId": 25,
+      "zoneId": 4,
+      "id": 144
+    },
+    {
+      "plantId": 25,
+      "zoneId": 5,
+      "id": 145
+    },
+    {
+      "plantId": 25,
+      "zoneId": 7,
+      "id": 146
+    },
+    {
+      "plantId": 25,
+      "zoneId": 8,
+      "id": 147
+    },
+    {
+      "plantId": 25,
+      "zoneId": 9,
+      "id": 148
+    },
+    {
+      "plantId": 26,
+      "zoneId": 4,
+      "id": 149
+    },
+    {
+      "plantId": 26,
+      "zoneId": 5,
+      "id": 150
+    },
+    {
+      "plantId": 26,
+      "zoneId": 6,
+      "id": 151
+    },
+    {
+      "plantId": 26,
+      "zoneId": 7,
+      "id": 152
+    },
+    {
+      "plantId": 26,
+      "zoneId": 9,
+      "id": 153
+    },
+    {
+      "plantId": 26,
+      "zoneId": 8,
+      "id": 154
     }
   ]
 }
