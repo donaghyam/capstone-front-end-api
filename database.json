@@ -29,6 +29,48 @@
       "email": "tom@tom.com",
       "zoneId": 5,
       "id": 5
+    },
+    {
+      "name": "Adam",
+      "email": "adam@adam.com",
+      "zoneId": 7,
+      "id": 6
+    },
+    {
+      "name": "tim",
+      "email": "tim@tim.com",
+      "zoneId": 5,
+      "id": 7
+    },
+    {
+      "name": "tom",
+      "email": "tom@tomtom.com",
+      "zoneId": 6,
+      "id": 8
+    },
+    {
+      "name": "Joe",
+      "email": "Joe@joejoe.com",
+      "zoneId": 5,
+      "id": 9
+    },
+    {
+      "name": "John",
+      "email": "John@John.com",
+      "zoneId": 5,
+      "id": 10
+    },
+    {
+      "name": "Millie",
+      "email": "Millie@Millie.com",
+      "zoneId": 6,
+      "id": 11
+    },
+    {
+      "name": "Robby",
+      "email": "robby@robby.com",
+      "zoneId": 6,
+      "id": 12
     }
   ],
   "gardens": [
@@ -51,6 +93,42 @@
     {
       "userId": 5,
       "id": 5
+    },
+    {
+      "userId": 6,
+      "id": 6
+    },
+    {
+      "userId": 7,
+      "id": 7
+    },
+    {
+      "userId": 8,
+      "id": 8
+    },
+    {
+      "userId": 8,
+      "id": 9
+    },
+    {
+      "userId": 9,
+      "id": 10
+    },
+    {
+      "userId": 9,
+      "id": 11
+    },
+    {
+      "userId": 10,
+      "id": 12
+    },
+    {
+      "userId": 11,
+      "id": 13
+    },
+    {
+      "userId": 12,
+      "id": 14
     }
   ],
   "gardenPlants": [
@@ -63,6 +141,11 @@
       "plantId": 4,
       "gardenId": 2,
       "id": 5
+    },
+    {
+      "plantId": 1,
+      "gardenId": 2,
+      "id": 6
     },
     {
       "name": "Blueberry",
@@ -118,11 +201,18 @@
       "id": 15
     },
     {
-      "name": "Arugula",
-      "plantId": 8,
+      "name": "Strawberry",
+      "plantId": 1,
       "gardenId": 1,
-      "datePlanted": 1647993600000,
-      "id": 16
+      "datePlanted": 1647907200000,
+      "id": 17
+    },
+    {
+      "name": "Raspberry",
+      "plantId": 4,
+      "gardenId": 1,
+      "datePlanted": 1647907200000,
+      "id": 18
     },
     {
       "name": "Watermelon",
@@ -145,6 +235,13 @@
       "gardenId": 1,
       "datePlanted": 1647993600000,
       "id": 21
+    },
+    {
+      "name": "Blackberry",
+      "plantId": 2,
+      "gardenId": 1,
+      "datePlanted": 1647734400000,
+      "id": 22
     },
     {
       "name": "Broccoli",
@@ -188,6 +285,14 @@
       "datePlanted": 1648684800000,
       "comment": "yummy watermelon",
       "id": 28
+    },
+    {
+      "name": "Dill",
+      "plantId": 14,
+      "gardenId": 5,
+      "datePlanted": 1649462400000,
+      "comment": "good on sandos",
+      "id": 29
     },
     {
       "name": "Oregano",
@@ -300,26 +405,11 @@
       "id": 49
     },
     {
-      "name": "Bell pepper",
-      "plantId": 37,
-      "gardenId": 2,
-      "datePlanted": 1648944000000,
-      "comment": "Leaves drying out",
-      "id": 51
-    },
-    {
-      "name": "Parsley",
-      "plantId": 20,
-      "gardenId": 2,
-      "datePlanted": 1648857600000,
-      "comment": "Turned out bitter",
-      "id": 52
-    },
-    {
-      "name": "Raspberry",
-      "plantId": 4,
+      "name": "Pumpkin",
+      "plantId": 27,
       "gardenId": 1,
-      "id": 53
+      "datePlanted": 1653264000000,
+      "id": 50
     }
   ],
   "zones": [
@@ -551,6 +641,32 @@
       "id": 13
     },
     {
+      "name": "Dill",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "Soil surface",
+      "sun": "6+ hours",
+      "watering": "1.5 in. per week",
+      "soilPH": "5.5-6.0",
+      "daysToHarvest": 28,
+      "img": "https://morningchores.com/wp-content/uploads/2019/03/dill-8104_1920-1.jpg",
+      "id": 14
+    },
+    {
+      "name": "Dill",
+      "type": "Herb",
+      "sowingSeason": "Spring - after last frost",
+      "startIndoors": false,
+      "plantingDepth": "0.5-1.0 in. (from seed)",
+      "sun": "8+ hours",
+      "watering": "2.0 in. per week",
+      "soilPH": "6.5-7.0",
+      "daysToHarvest": 30,
+      "img": "https://morningchores.com/wp-content/uploads/2019/08/Growing-Fenugreek-Plant-Varieties-How-to-Guide-Problems-and-Harvesting-FI.jpg",
+      "id": 15
+    },
+    {
       "name": "Lavender",
       "type": "Herb",
       "sowingSeason": "Spring - after last frost",
@@ -653,6 +769,17 @@
       "daysToHarvest": 75,
       "img": "https://morningchores.com/wp-content/uploads/2019/05/sage-2.jpg",
       "id": 23
+    },
+    {
+      "name": "",
+      "type": "",
+      "sowingSeason": "",
+      "startIndoors": false,
+      "plantingDepth": "",
+      "sun": "",
+      "watering": "",
+      "soilPH": "",
+      "id": 24
     },
     {
       "name": "Thyme",
@@ -913,6 +1040,18 @@
       "daysToHarvest": 130,
       "img": "https://cdn.shopify.com/s/files/1/0089/1562/products/shutterstock_12118996_grande.jpg?v=1400360146",
       "id": 44
+    },
+    {
+      "name": "asdfasdf",
+      "type": "Vegetable",
+      "sowingSeason": "Spring - before last frost",
+      "startIndoors": false,
+      "plantingDepth": "0.5-1.0 in. (from seed)",
+      "sun": "Shade",
+      "watering": "1.5 in. per week",
+      "soilPH": "3.5-4.0",
+      "daysToHarvest": 1,
+      "id": 45
     }
   ],
   "plantZones": [
@@ -1390,6 +1529,46 @@
       "plantId": 13,
       "zoneId": 10,
       "id": 94
+    },
+    {
+      "plantId": 14,
+      "zoneId": 3,
+      "id": 95
+    },
+    {
+      "plantId": 14,
+      "zoneId": 5,
+      "id": 96
+    },
+    {
+      "plantId": 14,
+      "zoneId": 4,
+      "id": 97
+    },
+    {
+      "plantId": 14,
+      "zoneId": 6,
+      "id": 98
+    },
+    {
+      "plantId": 14,
+      "zoneId": 7,
+      "id": 99
+    },
+    {
+      "plantId": 15,
+      "zoneId": 10,
+      "id": 100
+    },
+    {
+      "plantId": 15,
+      "zoneId": 11,
+      "id": 101
+    },
+    {
+      "plantId": 15,
+      "zoneId": 12,
+      "id": 102
     },
     {
       "plantId": 16,
@@ -1919,6 +2098,11 @@
     {
       "plantId": 37,
       "zoneId": 3,
+      "id": 208
+    },
+    {
+      "plantId": 37,
+      "zoneId": 3,
       "id": 209
     },
     {
@@ -1930,6 +2114,11 @@
       "plantId": 37,
       "zoneId": 4,
       "id": 211
+    },
+    {
+      "plantId": 37,
+      "zoneId": 3,
+      "id": 212
     },
     {
       "plantId": 37,
@@ -2098,6 +2287,16 @@
     },
     {
       "plantId": 43,
+      "zoneId": 3,
+      "id": 246
+    },
+    {
+      "plantId": 43,
+      "zoneId": 3,
+      "id": 247
+    },
+    {
+      "plantId": 43,
       "zoneId": 7,
       "id": 248
     },
@@ -2150,6 +2349,16 @@
       "plantId": 44,
       "zoneId": 9,
       "id": 258
+    },
+    {
+      "plantId": 45,
+      "zoneId": 3,
+      "id": 259
+    },
+    {
+      "plantId": 45,
+      "zoneId": 7,
+      "id": 260
     }
   ]
 }
